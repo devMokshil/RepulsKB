@@ -44,7 +44,7 @@ The extension assumes repuls.io's own keybinds are left at their defaults. When 
 
 ├── popup.css         Popup styling
 
-└── icons/            Toolbar/extension icons
+└── logo.png          Toolbar/extension icon
 
 
 ## Contributing ##
