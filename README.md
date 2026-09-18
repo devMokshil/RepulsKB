@@ -55,4 +55,4 @@ Issues and pull requests are welcome. New remappable actions go in the ACTIONS a
 
 Browsers mark script-generated key/mouse events as isTrusted: false. Most sites treat these the same as real input, but if a site specifically checks isTrusted to block simulated input, no browser extension can work around that.
 
-## Built by devMokshil ## 
+### Built by devMokshil ### 
