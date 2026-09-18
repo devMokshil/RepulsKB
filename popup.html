@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>RepulsKB</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="border-glow"></div>
+    <img class="intro-logo" src="logo.png" alt="RepulsKB" />
+
+    <div class="main-content">
+      <div class="header-container">
+        <div class="header-left"><h4>RepulsKB</h4></div>
+        <div class="header-right">v2.7</div>
+      </div>
+
+      <div id="scrollArea" class="scroll-area">
+        <div class="reminder">
+          <div class="title">Reset Required</div>
+          <div class="description">Before using this, reset your in-game keybinds to default.</div>
+        </div>
+
+        <div id="keybindList"></div>
+
+        <div class="scroll-footer">
+          <button id="resetBtn" class="reset-btn">Reset To Default</button>
+          <p class="reset-hint">Puts every key above back to the game's original settings.</p>
+          <p class="status-msg" id="status"></p>
+        </div>
+      </div>
+
+      <div class="footer">
+        <span class="footer-link">Built by devMokshil</span>
+      </div>
+    </div>
+
+    <script src="common.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
