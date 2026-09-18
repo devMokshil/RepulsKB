@@ -32,19 +32,19 @@ The extension assumes repuls.io's own keybinds are left at their defaults. When 
 ## Project structure ## 
 .
 
-├── manifest.json     Extension manifest (Manifest V3)
+├── manifest.json     
 
-├── common.js         Shared action/keybind metadata used by content.js and popup.js
+├── common.js         
 
-├── content.js        Injected into repuls.io — does the actual key interception/remapping
+├── content.js        
 
-├── popup.html        Extension popup UI
+├── popup.html        
 
-├── popup.js          Popup logic (renders the keybind list, saves settings)
+├── popup.js          
 
-├── popup.css         Popup styling
+├── popup.css        
 
-└── logo.png          Toolbar/extension icon
+└── logo.png         
 
 
 ## Contributing ##
